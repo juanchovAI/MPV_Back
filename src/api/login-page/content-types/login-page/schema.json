@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "login_pages",
+  "info": {
+    "singularName": "login-page",
+    "pluralName": "login-pages",
+    "displayName": "Login page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "ImagenPrincipal": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "LogoImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
